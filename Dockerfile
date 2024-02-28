@@ -1,5 +1,6 @@
 FROM pytorch/pytorch:1.10.0-cuda11.3-cudnn8-devel
 RUN pip install pip
+RUN pip install --upgrade pip setuptools
 RUN pip install matplotlib==3.4.3
 RUN pip install monai==0.8.1
 RUN pip install numpy==1.22.4+mkl

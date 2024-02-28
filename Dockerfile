@@ -8,7 +8,7 @@ RUN pip install omegaconf==2.0.0
 RUN pip install opencv_python_headless==4.5.4.60
 RUN pip install scipy==1.7.1
 RUN pip install SimpleITK==2.2.0
-RUN pip install torch==1.10.0+cu113
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch==1.10.0+cu113
 RUN pip install torchvision==0.11.2+cu113
 RUN pip install tqdm==4.62.3
 RUN pip install segmentation-models-pytorch==0.2.1
